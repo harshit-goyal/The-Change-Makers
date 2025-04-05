@@ -71,6 +71,17 @@ section {
     background: #f9f9f9; /* Slightly off-white for subtle distinction */
 }
 
+/* Logo Styling */
+.logo {
+    text-align: center; /* Centers the logo horizontally */
+    font-size: 70px; /* Makes the logo larger */
+    font-weight: bold; /* Ensures the logo looks prominent */
+    color: #ff0000; /* Red color for consistency with the theme */
+    margin: 0 auto; /* Aligns the logo centrally */
+    padding: 20px 0; /* Adds space around the logo */
+}
+
+
 /* Footer */
 footer {
     background: #ff0000; /* Red background */
