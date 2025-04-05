@@ -1,13 +1,16 @@
+/* General Style */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: #333;
     line-height: 1.6;
+    background-color: #fff; /* White background for consistency */
 }
 
+/* Header */
 header {
-    background: #0078d7;
-    color: #fff;
+    background: #ff0000; /* Bold Red */
+    color: #fff; /* White text for contrast */
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
@@ -26,20 +29,22 @@ header nav ul li {
 }
 
 header nav ul li a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     font-weight: bold;
 }
 
+/* Hero Section */
 #hero {
-    background: #f4f4f4;
+    background: #fff; /* White background */
     text-align: center;
     padding: 50px 20px;
+    border-bottom: 5px solid #ff0000; /* Red border for emphasis */
 }
 
 .cta {
-    background: #0078d7;
-    color: white;
+    background: #ff0000; /* Red button */
+    color: white; /* White text */
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
@@ -48,24 +53,27 @@ header nav ul li a {
 }
 
 .cta:hover {
-    background: #005bb5;
+    background: #cc0000; /* Darker shade of red for hover effect */
 }
 
+/* Section Styles */
 section {
     padding: 20px;
+    background: #fff; /* White background for content sections */
 }
 
 .course-card {
     margin: 20px 0;
     padding: 15px;
-    border: 1px solid #ccc;
+    border: 1px solid #ff0000; /* Red border for visual consistency */
     border-radius: 5px;
-    background: #f9f9f9;
+    background: #f9f9f9; /* Slightly off-white for subtle distinction */
 }
 
+/* Footer */
 footer {
-    background: #0078d7;
-    color: #fff;
+    background: #ff0000; /* Red background */
+    color: #fff; /* White text */
     text-align: center;
     padding: 10px 0;
 }
