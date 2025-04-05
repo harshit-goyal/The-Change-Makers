@@ -56,6 +56,17 @@ header nav ul li a {
     background: #cc0000; /* Darker shade of red for hover effect */
 }
 
+/* Logo Styling */
+.logo {
+    text-align: center; /* Centers the logo horizontally */
+    font-size: 50px; /* Makes the logo larger */
+    font-weight: bold; /* Ensures the logo looks prominent */
+    color: #ff0000; /* Red color for consistency with the theme */
+    margin: 0; /* Removes any default margin */
+    padding: 10px 0; /* Adds space around the logo */
+}
+
+
 /* Section Styles */
 section {
     padding: 20px;
